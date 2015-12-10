@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		659141B61BD5F54F00025973 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 659141B51BD5F54F00025973 /* main.cpp */; };
+		6531AB441C17EC9D001748E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6531AB421C17EC9D001748E4 /* main.cpp */; };
+		653AC7671BD6ECCA0027BB5F /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 653AC7651BD6ECCA0027BB5F /* Employee.cpp */; };
+		6556CAA41BD895E600BB803C /* SalariedEmployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6556CAA21BD895E600BB803C /* SalariedEmployee.cpp */; };
+		6556CAA71BD898B200BB803C /* StudentEmployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6556CAA51BD898B200BB803C /* StudentEmployee.cpp */; };
+		659141BE1BD5FE7700025973 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 659141BC1BD5FE7700025973 /* Person.cpp */; };
+		659141C11BD60BC300025973 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 659141BF1BD60BC300025973 /* Student.cpp */; };
+		65B4882B1BD88AE6003F047C /* HourlyEmployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B488291BD88AE6003F047C /* HourlyEmployee.cpp */; };
+		65B54A0D1C17C68400D9E9EC /* container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B54A0B1C17C68400D9E9EC /* container.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6531AB421C17EC9D001748E4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		653AC7651BD6ECCA0027BB5F /* Employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		653AC7661BD6ECCA0027BB5F /* Employee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		6556CAA21BD895E600BB803C /* SalariedEmployee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SalariedEmployee.cpp; sourceTree = "<group>"; };
+		6556CAA31BD895E600BB803C /* SalariedEmployee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SalariedEmployee.hpp; sourceTree = "<group>"; };
+		6556CAA51BD898B200BB803C /* StudentEmployee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudentEmployee.cpp; sourceTree = "<group>"; };
+		6556CAA61BD898B200BB803C /* StudentEmployee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StudentEmployee.hpp; sourceTree = "<group>"; };
 		659141B21BD5F54F00025973 /* HW3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW3; sourceTree = BUILT_PRODUCTS_DIR; };
-		659141B51BD5F54F00025973 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		659141BC1BD5FE7700025973 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		659141BD1BD5FE7700025973 /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		659141BF1BD60BC300025973 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		659141C01BD60BC300025973 /* Student.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		65B488291BD88AE6003F047C /* HourlyEmployee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HourlyEmployee.cpp; sourceTree = "<group>"; };
+		65B4882A1BD88AE6003F047C /* HourlyEmployee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HourlyEmployee.hpp; sourceTree = "<group>"; };
+		65B54A0B1C17C68400D9E9EC /* container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = container.cpp; sourceTree = "<group>"; };
+		65B54A0C1C17C68400D9E9EC /* container.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = container.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +78,21 @@
 		659141B41BD5F54F00025973 /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
-				659141B51BD5F54F00025973 /* main.cpp */,
+				6531AB421C17EC9D001748E4 /* main.cpp */,
+				659141BC1BD5FE7700025973 /* Person.cpp */,
+				659141BD1BD5FE7700025973 /* Person.hpp */,
+				659141BF1BD60BC300025973 /* Student.cpp */,
+				659141C01BD60BC300025973 /* Student.hpp */,
+				653AC7651BD6ECCA0027BB5F /* Employee.cpp */,
+				653AC7661BD6ECCA0027BB5F /* Employee.hpp */,
+				65B488291BD88AE6003F047C /* HourlyEmployee.cpp */,
+				65B4882A1BD88AE6003F047C /* HourlyEmployee.hpp */,
+				6556CAA21BD895E600BB803C /* SalariedEmployee.cpp */,
+				6556CAA31BD895E600BB803C /* SalariedEmployee.hpp */,
+				6556CAA51BD898B200BB803C /* StudentEmployee.cpp */,
+				6556CAA61BD898B200BB803C /* StudentEmployee.hpp */,
+				65B54A0B1C17C68400D9E9EC /* container.cpp */,
+				65B54A0C1C17C68400D9E9EC /* container.hpp */,
 			);
 			path = HW3;
 			sourceTree = "<group>";
@@ -88,6 +123,7 @@
 		659141AA1BD5F54F00025973 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Bingyao Li";
 				TargetAttributes = {
@@ -118,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659141B61BD5F54F00025973 /* main.cpp in Sources */,
+				6556CAA71BD898B200BB803C /* StudentEmployee.cpp in Sources */,
+				659141C11BD60BC300025973 /* Student.cpp in Sources */,
+				653AC7671BD6ECCA0027BB5F /* Employee.cpp in Sources */,
+				65B54A0D1C17C68400D9E9EC /* container.cpp in Sources */,
+				659141BE1BD5FE7700025973 /* Person.cpp in Sources */,
+				6556CAA41BD895E600BB803C /* SalariedEmployee.cpp in Sources */,
+				6531AB441C17EC9D001748E4 /* main.cpp in Sources */,
+				65B4882B1BD88AE6003F047C /* HourlyEmployee.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,14 +248,21 @@
 		659141BA1BD5F54F00025973 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HW3/HW3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		659141BB1BD5F54F00025973 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HW3/HW3-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -235,6 +285,7 @@
 				659141BB1BD5F54F00025973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
