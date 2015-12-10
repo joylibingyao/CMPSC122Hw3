@@ -13,6 +13,7 @@ Container::Container(){
 }
 
 void Container::searchPerson(string name){
+    cout<<"search";
     for (int i=0; i<list.size(); i++ ) {
         if (list[i].getName() == name) {
             list[i].displayInfo();
@@ -21,7 +22,7 @@ void Container::searchPerson(string name){
     }
 }
 
-void Container::push(Person& p){
+void Container::push(const Person& p){
     list.push_back(p);
 }
 

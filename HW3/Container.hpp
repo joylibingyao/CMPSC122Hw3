@@ -16,7 +16,7 @@ class Container {
     
 public:
     Container();
-    void push(Person& p);
+    void push(const Person& p);
     void pop();
     void searchPerson(string name);
     
